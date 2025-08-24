@@ -4,6 +4,12 @@ A simple and interactive *To-Do List Web App* built with HTML, CSS and JavaScrip
 This project allows users to add, delete, and mark tasks as complete, with data persistence using *localStorage*.
 
 
+Objectives:
+- Use HTML and CSS for layout and design.
+- Implement JavaScript for adding, updating and deleting tasks.
+- Store tasks in the browser’s local storage to persist data.
+
+
 Features:
 - Add new tasks  
 - Delete tasks  
