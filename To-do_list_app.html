@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <title>To-do list app</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>To-do list app</h1>
+        </header>
+
+       <section id="todo-container">
+         <h2>My to-do list</h2>
+
+           <div class="input-group">
+
+             <input type="text" id="taskInput" placeholder="Enter a new task...">
+
+             <button id="addTaskBtn">Add</button>
+
+           </div>
+
+            <ul id="taskList"></ul>
+
+            <button id="clearAllBtn">Clear all</button>
+
+        </section>
+
+         <div id="modal" class="modal hidden">
+
+           <div class="modal-content">
+             <p id="modal-message"></p>
+              <button id="close-modal">Close</button>
+           </div>
+
+         </div>
+
+
+         <footer>
+               <p>&copy; 2025 Daniel Dedja. All rights reserved.</p>
+         </footer>
+
+
+         <script src="script.js"></script>
+     
+        </body>
+</html>
