@@ -35,7 +35,7 @@ How it works:
 6. Click the **Clear All** button to remove all tasks.  
 
 
-Live Demo : view here --> ()
+Live Demo : view here --> (https://d00055a.github.io/To-do_list_app/)
 
 
 License © 2025 Daniel Dedja. All rights reserved.
