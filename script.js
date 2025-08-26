@@ -32,10 +32,10 @@ function addTask() {
 
 // Create a task element
 function createTaskElement(taskText, completed = false) {
-  const li = document.createElement("li");
+  let li = document.createElement("li");
 
   // text span
-  const span = document.createElement("span");
+  let span = document.createElement("span");
   span.textContent = taskText;
   li.appendChild(span);
 
@@ -48,7 +48,7 @@ function createTaskElement(taskText, completed = false) {
   });
 
   // Delete button
-  const deleteBtn = document.createElement("button");
+  let deleteBtn = document.createElement("button");
   deleteBtn.textContent = "X";
   deleteBtn.classList.add("delete-btn");
   deleteBtn.addEventListener("click", (e) => {
@@ -101,3 +101,4 @@ function showModal(message) {
 closeModalBtn.addEventListener("click", () => {
   modal.classList.add("hidden");
 });
+
