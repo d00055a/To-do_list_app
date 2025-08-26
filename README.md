@@ -31,7 +31,7 @@ How it works:
 2. Click **Add** to insert the task.  
 3. Tasks alternate left and right in the list.  
 4. Click on a task to mark it as completed.  
-5. Press the **X** button at the right of each task to delete it.  
+5. Press the **X** button at the right of each task to remove it.  
 6. Click the **Clear All** button to remove all tasks.  
 
 
