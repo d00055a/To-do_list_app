@@ -166,9 +166,6 @@ footer {
 
 @media (max-width: 600px) {
 
-  html, body {
-    height: 100%;
-  }
 
   body {
     display: flex;
@@ -202,3 +199,4 @@ footer {
     margin-top: auto; 
   }
 }
+
