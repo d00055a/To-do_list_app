@@ -197,7 +197,13 @@ footer {
     flex-direction: column;
   }
 
-  #taskInput, #addTaskBtn {
+  #taskInput{
+    width: 93.56%;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+  }
+
+  #addTaskBtn {
     width: 100%;
     border-radius: 5px;
     margin: 0 0 10px 0;
@@ -208,6 +214,7 @@ footer {
   }
 
 }
+
 
 
 
