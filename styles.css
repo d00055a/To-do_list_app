@@ -174,3 +174,40 @@ footer {
   background-color: #1e1e2f;
   color: white;
 }
+
+@media (max-width: 600px) {
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #todo-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  #taskInput, #addTaskBtn {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+  }
+
+  footer {
+    margin-top: auto; 
+  }
+
+}
+
+
+
