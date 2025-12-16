@@ -1,41 +1,69 @@
 # To-Do List App
 
-A simple and interactive *To-Do List Web App* built with HTML, CSS and JavaScript.  
-This project allows users to add, delete, and mark tasks as complete, with data persistence using *localStorage*.
+A simple and interactive **To-Do List web application** built with **HTML, CSS, and JavaScript**, designed to practice core frontend fundamentals and client-side data persistence.
+
+The application allows users to create, manage, and track tasks, with data stored locally in the browser using **localStorage**.
+
+## Features
+
+- Add new tasks
+
+- Delete tasks
+
+- Mark tasks as completed or incomplete
+
+- Persistent task storage using **localStorage**
+
+- Modal alert when attempting to add an empty task
+
+- Two-column alternating task layout (left/right)
+
+- Responsive and animated UI
 
 
-Objectives:
-- Use HTML and CSS for layout and design.
-- Implement JavaScript for adding, updating and deleting tasks.
-- Store tasks in the browser’s local storage to persist data.
+## Tech Stack
+- **HTML5** – Page structure
+
+- **CSS3** – Styling, layout and animations
+
+- **JavaScript (ES6)** – Application logic, event handling
+
+- **localStorage** – Client-side data persistence
 
 
-Features:
-- Add new tasks  
-- Delete tasks  
-- Mark tasks as complete/incomplete  
-- Save tasks in the browser's *localStorage* (tasks remain even after page reload)  
-- Modal box alert if the user tries to add an empty task  
-- Tasks are displayed in a two-column alternating layout (left/right)  
+## How It Works
+
+1. Enter a task in the input field
+
+2. Click **Add** to insert the task
+
+3. Tasks are displayed in an alternating left/right layout
+
+4. Click on a task to mark it as completed
+
+5. Use the **X** button to remove individual tasks
+
+6. Click **Clear All** to remove all tasks
 
 
-Technologies used:
-- HTML5 --> Structure of the page  
-- CSS3 --> Styling, layout, and animations  
-- JavaScript (ES6) --> Functionality, interactivity, event handling  
-- localStorage --> Persistent storage of tasks in the browser  
+**Live Demo**
 
+View here --> (https://d00055a.github.io/To-do_list_app/)
 
-How it works:
-1. Type a task in the input field.  
-2. Click **Add** to insert the task.  
-3. Tasks alternate left and right in the list.  
-4. Click on a task to mark it as completed.  
-5. Press the **X** button at the right of each task to remove it.  
-6. Click the **Clear All** button to remove all tasks.  
+## Purpose
 
+This project was built to practice and demonstrate:
 
-Live Demo : view here --> (https://d00055a.github.io/To-do_list_app/)
+- Core JavaScript functionality
 
+- DOM manipulation
+
+- Event handling
+
+- Client-side data persistence using localStorage
+
+- Clean and responsive UI design
+
+<br/><br/>
 
 License © 2025 Daniel Dedja. All rights reserved.
