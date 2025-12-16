@@ -46,7 +46,7 @@ The application allows users to create, manage, and track tasks, with data store
 6. Click **Clear All** to remove all tasks
 
 
-##Live Demo
+## Live Demo
 
 View here --> (https://d00055a.github.io/To-do_list_app/)
 
