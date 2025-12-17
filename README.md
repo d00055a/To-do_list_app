@@ -48,7 +48,7 @@ The application allows users to create, manage, and track tasks, with data store
 
 ## Live Demo
 
-View here --> (https://d00055a.github.io/To-do_list_app/)
+View here --> (https://d00055a.github.io/todo-list-app/)
 
 ## Purpose
 
